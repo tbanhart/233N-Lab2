@@ -5,7 +5,7 @@
 
 <body>
     <h2>Here you can view my classes</h2>
-    <img src="~/Images/OddScreenshot.png" height=400px width=400px/>
+    <img src="~/Images/OddScreenshot.png" height=400px width=400 />
     <ul>
         @for (var xx = 0; xx < myClasses.Length; xx++)
         {
@@ -14,7 +14,6 @@
     </ul>
     @Html.Label("Enter your name:")
     <input id="Text1" type="text"/>
-    &nbsp;
     <input id="Submit1" type="submit" value="submit"/>
     <div>Current time is: @DateTime.Now.ToString()</div>
 </body> 

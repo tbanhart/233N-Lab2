@@ -19,11 +19,12 @@
                 </button>
                 <img src="~/Images/PCCLogo_Small.jpg" class="img-center" height="50" width="50 />
 
-                @* @Html.ActionLink("My CIS Page", "Index", "Home", new {area=""});
- *@                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                @* @Html.ActionLink("My CIS Page", "Index", "Home", new {area=""}); *@
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="MyClasses" asp-action="Index">My Classes</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="MyClasses" asp-action="UserLogin">Login</a>
                         </li>
                     </ul>
                 </div>
