@@ -7,4 +7,8 @@
     <RootNamespace>_233N_Lab2_Banhart</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\Images\OddScreenshot.png" />
+  </ItemGroup>
+
 </Project>

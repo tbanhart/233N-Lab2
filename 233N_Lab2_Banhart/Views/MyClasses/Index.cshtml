@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "My Classes";
+    string[] myClasses = ["CIS 111", "CIS121", "CIS 133", "CIS 233", "CIS 240"];
+}
+
+<body>
+    <h2>Here you can view my classes</h2>
+    <img src="~/Images/OddScreenshot.png" height=400px width=400px/>
+    <ul>
+        @for (var xx = 0; xx < myClasses.Length; xx++)
+        {
+            <li><h3>@myClasses[xx]</h3></li>
+        }
+    </ul>
+    @Html.Label("Enter your name:")
+    <input id="Text1" type="text"/>
+    &nbsp;
+    <input id="Submit1" type="submit" value="submit"/>
+    <div>Current time is: @DateTime.Now.ToString()</div>
+</body> 
